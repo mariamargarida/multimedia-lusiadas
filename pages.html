@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lusíadas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet prefetch' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'>
+    <!-- link do icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- jquery -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+
+</head>
+
+<body>
+<div id="fullpage">
+    <!-- sec=1 #37-->
+    <div class="section" id="wall-37">
+        <!--<button onclick="pauseVid()" type="button">Pause Som</button>
+<audio autoplay id="waveSound">
+    <source src="audio/Slide1-Water_Lapping_Wind.mp3" type="audio/mp3">
+</audio>-->
+        <!--    <img src="img/37-fundo.jpg" alt="background-37" id="background-37"> -->
+        <img src="img/sol.png" alt="element" id="sun" class="element">
+        <img src="img/wave1.png" alt="element" class="wave1 element wave">
+        <img src="img/wave2.png" alt="element" class="wave2 element wave">
+        <img src="img/37-barco.png" alt="element" id="ship-37" class="element ship">
+        <img src="img/wave3.png" alt="element" class="wave3 element wave">
+        <img src="img/wave4.png" alt="element" class="wave4 element wave">
+
+
+        <div class="textEstrofe" id="chat-1">
+            <p class="chat">Porém já cinco sóis eram passados
+                <br/> Que dali nos partíramos, cortando
+                <br/> Os mares nunca doutrem navegados,
+                <br/> Prosperamente os ventos assoprando,
+                <br/> Quando uma noite, estando descuidados.
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=2 #38-1 -->
+    <div class="section" id="wall-38">
+        <!-- <img src="img/38-fundo.png" alt="background-38" id="background-38"> -->
+        <img src="img/38-fundo.png" alt="background-light-flash-38" id="background-light-flash-38"
+             class="lightning flash">
+        <img src="img/38_assustados.png" alt="element" id="ship-scary-38" align="middle">
+
+        <div class="textEstrofe" id="chat-2">
+            <p class="chat">Tão temerosa vinha e carregada,<br/>
+
+                Que pôs nos corações um grande medo, <br/>
+
+                Bramindo, o negro mar de longe brada,<br/>
+
+                Como se desse em vão nalgum rochedo.<br/>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- sec=3 #38-2 -->
+    <div class="section" id="wall-38-v2">
+
+        <!--<img src="img/38-2-fundoEscuro.png" alt="background-38-v2" class="background-38">-->
+        <img src="img/38-2-fundoEscuro.png" id="background-38" alt="background-38-v2"
+             class="background-38 lightning flash">
+        <img src="img/38-2_Ondas.png" alt="waves-38-v2" id="waves-38-v2" class="element">
+        <img src="img/38-2_Nuvens.png" alt="clouds-38-v2" id="clouds-38-v2" class="element">
+        <img src="img/38-2_Barco.png" alt="ship-38-v2" id="ship-38-v2" class="element">
+        <div id="speechBubbles2">
+            <img src="img/38-Speech_bubble.png" alt="speech-38-2" id="speech-38-2">
+        </div>
+    </div>
+
+    <!-- sec=4 #38-3 -- drag and drop da nuvem-->
+    <div class="section" id="wall-38-v3">
+        <!-- <img src="img/37_fundoescuro.jpg" alt="38_background" id="39-nuvem">-->
+        <!--<img src="img/38-2-fundoEscuro.png" alt="cloud-flash-38-3" id="cloud-flash-38-3"
+             class="lightning flash">-->
+        <img src="img/wave1.png" alt="element" class="wave1 element wave">
+        <img src="img/wave2.png" alt="element" class="wave2 element wave">
+        <img src="img/37-barco.png" alt="element" id="ship-38-3" class="element">
+        <img src="img/39-Seta.png" alt="arrow-39" id="arrow-39">
+        <img src="img/39-Seta.png" alt="arrow-2-39" id="arrow-2-39">
+        <img src="img/wave3.png" alt="element" class="wave3 element wave">
+        <img src="img/wave4.png" alt="element" class="wave4 element wave">
+        <img src="img/39_nuvem.png" alt="element" id="cloudDrag1" class="element cloud drag">
+        <div id="targetCloud" class="element cloud drag"></div>
+
+        <div class="textEstrofe" id="chat-3">
+            <p class="chat">
+                (...) <br/>
+                Na cortadora proa vigiando,<br/>
+                Uma nuvem, que os ares escurece,<br/>
+                Sobre nossas cabeças aparece.<br/>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- sec=5 #39 -->
+    <div class="section" id="wall-39">
+        <!-- <img src="img/39-2Fundo.png" alt="39_background" id="39"> -->
+        <img src="img/39Adamastor.png" alt="background-39" id="Adam39">
+        <img src="img/39_nuvem.png" alt="element" class="clouds39-left" id="moving-left1">
+        <img src="img/39_nuvem.png" alt="element" class="clouds39-right" id="moving-right2">
+        <img src="img/39_nuvem.png" alt="element" class="clouds39-left" id="moving-left3">
+        <img src="img/39_nuvem.png" alt="element" class="clouds39-right" id="moving-right4">
+
+
+        <div class="textEstrofe" id="chat-4">
+            <p class="chat">
+                Não acabava, quando uma figura <br/>
+
+                Se nos mostra no ar, robusta e válida,<br/>
+
+                De disforme e grandíssima estatura;<br/>
+
+                O rosto carregado, a barba esquálida,<br/>
+
+                Os olhos encovados, e a postura<br/>
+
+                Medonha e má e a cor terrena e pálida;<br/>
+
+                Cheios de terra e crespos os cabelos,<br/>
+
+                A boca negra, os dentes amarelos.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=6  #40 -->
+    <div class="section" id="wall-40">
+        <!--<img src="img/40_41Fundo.png" alt="40_background" id="40-background">-->
+        <img src="img/40_41Adamastor.png" alt="adamastor-background40" id="adamastor-background-40">
+        <!--<img src="img/42_48Barco.png" alt="43_ship" id="ship44" style="display: none">-->
+        <div id="speechBubbles40">
+            <img src="img/40-41BaloesDeFala1.png" alt="speechBallon40" id="speech-ballon-40"
+                 class="speech-ballon-40-animation">
+        </div>
+        <img src="img/40_41PontosExclamacao1.png" alt="points1" id="points1"
+             class="position-exclamation1 exclamation-points exclamation-points-animation">
+        <img src="img/40_41PontosExclamacao2.png" alt="points2" id="points2"
+             class="position-exclamation2 exclamation-points exclamation-points-animation">
+        <!--
+Ó gente ousada, mais que quantas
+
+No mundo cometeram grandes cousas,
+
+Tu, que por guerras cruas, tais e tantas,
+
+E por trabalhos vãos nunca repousas,
+
+Pois os vedados términos quebrantas
+
+E navegar nos longos mares ousas,
+
+Que eu tanto tempo há já que guardo e tenho,
+
+Nunca arados dÂ’estranho ou próprio lenho:
+-->
+
+    </div>
+
+    <!-- sec=7 #41 -->
+    <div class="section" id="wall-41">
+        <!-- <img src="img/39-2Fundo.png" alt="background-41" id="background-41"> -->
+        <img src="img/39Adamastor.png" alt="adam-41" id="adam-41">
+
+        <!--
+Pois vens ver os segredos escondidos
+
+Da natureza e do úmido elemento,
+
+A nenhum grande humano concedidos
+
+De nobre ou de imortal merecimento,
+
+Ouve os danos de mi que apercebidos
+
+Estão a teu sobejo atrevimento,
+
+Por todo largo mar e pola terra
+
+Que inda hás de sojugar com dura guerra.
+-->
+
+        <div class="textEstrofe" id="chat-5">
+            <p class="chat">
+                Pois vens ver os segredos escondidos <br/>
+
+                Da natureza e do úmido elemento,<br/>
+
+                A nenhum grande humano concedidos<br/>
+
+                De nobre ou de imortal merecimento,<br/>
+
+                Ouve os danos de mi que apercebidos<br/>
+
+                Estão a teu sobejo atrevimento<br/>
+
+                Por todo largo mar e pola terra <br/>
+
+                Que inda hás de sojugar com dura guerra.<br/>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- sec=8 #42-48-->
+    <div class="section" id="wall-42-48">
+        <img src="img/fundoGeralFlash.png" alt="42_background" id="background-sky-42-48" class="flash">
+        <!--<img src="img/42_48NaufrágioCéu.png" alt="42_background" id="sky-42-48-flash">-->
+        <img src="img/42_48NaufrágioBarco.png" alt="42_background" id="ship-42-48" class="ship_42">
+        <img src="img/42_48NaufrágioMar.png" alt="42_background" id="sea-42-48" class="sea_42">
+
+
+        <div class="textEstrofe" id="chat-6">
+            <p class="chat">
+                Sabe que quantas naus esta viagem <br/>
+
+                Que tu fazes, fizerem, de atrevidas,<br/>
+
+                Inimiga terão esta paragem,<br/>
+
+                Com ventos e tormentas desmedidas!<br/>
+
+                Antes, em vossas naus verei, cada ano,<br/>
+
+                Se é verdade o que meu juízo alcança,<br/>
+
+                Naufrágios, perdições de toda sorte,<br/>
+
+                Que o menor mal de todos seja a morte!<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=9 #46-48 -->
+    <div class="section" id="wall-46-48">
+        <img src="img/42_48Fundocommapa.png" alt="43_background" id="background-43">
+        <!--  <img src="img/42_48(2)Mar.png" alt="43_ship" id="43-sea"> -->
+        <div id="puzzleContainer">
+            <div id="puzzlePieces">
+                <div id="ship-46-48" class="drag">
+                    <img src="img/42_48Barco.png" alt="43_ship">
+                </div>
+            </div>
+
+
+            <div id="puzzleTarget">
+                <div id="t1" class="target">
+                </div>
+            </div>
+        </div>
+        <img src="img/42-48-Seta.png" alt="42-48-arrow" id="arrow-42-48">
+
+        <div class="textEstrofe" id="chat-7">
+            <p class="chat">
+                Antes, em vossas naus verei, cada ano,<br/>
+
+                Se é verdade o que meu juízo alcança,<br/>
+
+                Naufrágios, perdições de toda sorte,<br/>
+
+                Que o menor mal de todos seja a morte!<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=10 #46-48-2 -->
+    <div class="section" id="wall-46-48-2">
+        <!--<img src="img/46-48-2Fundo.png" alt="44_background" id="44">-->
+        <!-- <img src="img/42_48Barcocomagua.png" alt="ship-46-48-2" id="ship-46-48-2" class="sea-46-48-2"> -->
+        <img src="img/42_48(2)Mar.png" alt="sea-46-48-2" id="sea-46-48-2" class="sea-46-48-2">
+        <img src="img/42_48(2)Barco.png" alt="ship-46-48-2" id="ship-46-48-24" class="ship-46-48-2">
+        <img src="img/42_48(2)Mar2.png" alt="wave-46-48-2" id="wave-46-48-2" class="wave-46-48-2">
+
+        <div class="textEstrofe" id="chat-8">
+            <p class="chat">
+                E do primeiro ilustre, que a ventura<br/>
+
+                Com fama alta fizer tocar os céus,<br/>
+
+                Serei eterna e nova sepultura,<br/>
+
+                Por juízos incógnitos de Deus.<br/>
+
+                Aqui porá a turca armada dura<br/>
+
+                Os soberbos e prósperos troféus;<br/>
+
+                Comigo de seus danos o ameaça<br/>
+
+                A destruída Quíloa com Mombaça.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=11 #46-48-3 -->
+    <div class="section" id="wall-46-48-3">
+        <!-- <img src="img/42_48_Ceu.png" alt="45_background" id="45"> -->
+        <img src="img/42_48_Barco.png" alt="ship-46-48-3" id="ship-46-48-3" class="ship-46-48-3">
+        <img src="img/42_48_Pessoa.png" alt="person-46-48-3" id="person-46-48-3" class="person-46-48-3">
+        <img src="img/42_48_PessoaClaro.png" alt="person-46-48-light" id="person-46-48-light"
+             class="person-46-48-light">
+
+        <div class="textEstrofe" id="chat-9">
+            <p class="chat">
+                Outro também virá, de honrada fama,<br/>
+
+                Liberal, cavaleiro, enamorado,<br/>
+
+                E consigo trará a fermosa dama<br/>
+
+                Que Amor por grão mercê lhe terá dado.<br/>
+
+                Triste ventura e negro fado os chama<br/>
+
+                Neste terreno meu, que, duro e irado,<br/>
+
+                Os deixará dum cru naufrágio vivos,<br/>
+
+                Pera verem trabalhos excessivos.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=12 #49  -->
+    <div class="section" id="wall-46-48-4">
+        <!--<img src="img/49Fundo.png" alt="49_background" id="49">-->
+        <img src="img/49Adam.png" alt="Adam-46-48-4" id="Adam-46-48-4">
+        <img src="img/49BalãoL.png" alt="leftB" id="leftB">
+        <img src="img/49BalãoR.png" alt="rightB" id="rightB">
+
+        <div class="textEstrofe" id="chat-10">
+            <p class="chat">
+                Mais ia por diante o monstro horrendo<br/>
+                Dizendo nossos fados, quando, alçado,<br/>
+                (Dá uma espreitadela no que o mostrengo está a pensar!)
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=13 #49-2 -->
+    <div class="section" id="wall-49-2">
+        <img src="img/39-2Adamastor.png" alt="Adam-no-flash-49-2" id="Adam-no-flash-49-2">
+        <img src="img/39-2Adamastor.png" alt="Adam-49-2" id="Adam-49-2">
+        <img src="img/39-2Barco.png" alt="50_ship" id="ship-49-2">
+        <div id="speechBubbles3">
+            <img src="img/49SpeechBallon1.png" alt="50_speech" id="speech_50">
+        </div>
+
+        <div class="textEstrofe" id="chat-11">
+            <p class="chat">
+                Outro também virá, de honrada fama,<br/>
+
+                Liberal, cavaleiro, enamorado,<br/>
+
+                E consigo trará a fermosa dama<br/>
+
+                Que Amor por grão mercê lhe terá dado.<br/>
+
+                Triste ventura e negro fado os chama<br/>
+
+                Neste terreno meu, que, duro e irado,<br/>
+
+                Os deixará dum cru naufrágio vivos,<br/>
+
+                Pera verem trabalhos excessivos.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=14 #50-51 -->
+    <div class="section" id="wall-50-51">
+        <!--<img src="img/50-51Fundo.png" alt="51_background" id="51">-->
+        <img src="img/50-51Espada.png" alt="sword-50-51" class="sword-50-51">
+        <img src="img/50-51NuvemVerde.png" alt="color-50-51" id="cloudGreen" class="color-50-51">
+        <img src="img/50-51NuvemVermelha.png" alt="color-50-51" id="cloudRed" class="color-50-51">
+        <img src="img/50-51NuvemAmarela.png" alt="color-50-51" id="cloudYellow" class="color-50-51">
+
+        <div class="textEstrofe" id="chat-12">
+            <p class="chat">
+                (...)<br/>
+
+                Chamei-me Adamastor e fui na guerra<br/>
+
+                Contra o que vibra os raios de Vulcano;<br/>
+
+                Não que pusesse serra sobre serra,<br/>
+
+                Mas conquistando as ondas do Oceano,<br/>
+
+                Fui capitão do mar, por onde andava<br/>
+
+                A armada de Neptuno, que eu buscava.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=15 #52 -->
+    <div class="section" id="wall-52">
+        <!--<img src="img/52-FundoSemBack.png" alt="52_background" id="52">-->
+        <img src="img/52-Tétis.png" alt="52-color" id="tetis-clothes-52" class="tetis-clothes">
+        <img src="img/52-Neblina.png" alt="52" id="smoke52">
+        <img src="img/56Adamastor.png" alt="53-color" class="adam-53">
+
+        <div class="textEstrofe" id="chat-13">
+            <p class="chat">
+                Amores da alta esposa de Peleu<br/>
+
+                Me fizeram tomar tamanha empresa;<br/>
+
+                Todas as Deusas desprezei do Céu,<br/>
+
+                Só por amar das águas a princesa;<br/>
+
+                Um dia a vi, coas filhas de Nereu,<br/>
+
+                Sair nua na praia e logo presa<br/>
+
+                A vontade senti de tal maneira,<br/>
+
+                Que inda não sinto cousa que mais queira.<br/>
+            </p>
+        </div>
+    </div>
+
+
+    <!-- sec=16 #54 -->
+    <div class="section" id="wall-54">
+        <!-- <img src="img/54FundoSemBackground.png" alt="background-wall-54" id="background-wall-54">-->
+        <img src="img/54CoracoesRandom.png" alt="heart-Random-54" id="heart-random1" class="notVisible heart-54">
+        <img src="img/54CoracoesRandom-2.png" alt="heart-Random-54" id="heart-random2" class="notVisible heart-54">
+        <img src="img/54CoracoesRandom-3.png" alt="heart-Random-54" id="heart-random3" class="notVisible heart-54">
+        <img src="img/54CoracoesRandom-4.png" alt="heart-Random-54" id="heart-random4" class="notVisible heart-54">
+        <img src="img/54CoracoesRandom-5.png" alt="heart-Random-54" id="heart-random5" class="notVisible heart-54">
+        <img src="img/54CoracaoPrincipal.png" alt="heart54" id="heart">
+
+        <div class="textEstrofe" id="chat-14">
+            <p class="chat">
+                Contudo, por livrarmos o Oceano<br/>
+
+                De tanta guerra, eu buscarei maneira<br/>
+
+                Com que, com minha honra, escuse o dano.<br/>
+
+                Tal resposta me torna a mensageira.<br/>
+
+                Eu, que cair não pude neste engano<br/>
+
+                (Que é grande dos amantes a cegueira),<br/>
+
+                Encheram-me, com grandes abondanças,<br/>
+
+                O peito de desejos e esperanças.<br/>
+
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=18 #55 -->
+    <div class="section" id="wall-55">
+        <!-- <img src="img/55Fundo.png" alt="55_background" id="wall-55"> -->
+        <img src="img/55Fundo.png" alt="55_background" class="background55">
+        <img src="img/55Tétis.png" alt="tetis-without-clothess" class="tetis-without-clothes">
+        <img src="img/55Neblina.png" alt="clouds-55" id="clouds-55">
+
+        <div class="textEstrofe" id="chat-15">
+            <p class="chat">
+                Já néscio, já da guerra desistindo,<br/>
+
+                Uma noite, de Dóris prometida,<br/>
+
+                Me aparece de longe o gesto lindo<br/>
+
+                Da branca Tétis, única, despida.<br/>
+
+                Como doudo corri de longe, abrindo<br/>
+
+                Os braços pera aquela que era a vida<br/>
+
+                Deste corpo e começo os olhos belos<br/>
+
+                A lhe beijar, as faces e os cabelos.<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=19 #56 -->
+    <div class="section" id="wall-56">
+        <img src="img/56-2Fundo.png" alt="56_background" class="background56">
+        <img src="img/56-2Mato.png" alt="56_florest" id="florest-56">
+        <img src="img/56-2Adamastor.png" alt="adam-56" id="adam-56">
+        <img src="img/56-2Passo1.png" alt="foot1-56" id="foot1-56">
+        <img src="img/56-2Passo2.png" alt="foot2-56" id="foot2-56">
+        <img src="img/56-2Passo3.png" alt="foot3-56" id="foot3-56">
+        <img src="img/56-2Passo4.png" alt="foot4-56" id="foot4-56">
+
+        <div class="textEstrofe" id="chat-16">
+            <p class="chat">
+                Oh! Que não sei de nojo como o conte!<br/>
+
+                Que, crendo ter nos braços quem amava,<br/>
+
+                Abraçado me achei cum duro monte<br/>
+
+                De áspero mato e de espessura brava.<br/>
+
+                Estando cum penedo fronte a fronte,<br/>
+
+                Que eu polo rosto angélico apertava,<br/>
+
+                Não fiquei homem, não; mas mudo e quedo<br/>
+
+                E junto dum penedo outro penedo!<br/>
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=20 #57 -->
+    <div class="section" id="wall-57">
+        <img src="img/57-59Coracao1.png" alt="broken-heart" id="broken-heart">
+
+        <div class="textEstrofe" id="chat-17">
+            <p class="chat">
+
+                Ó Ninfa, a mais fermosa do Oceano,<br/>
+
+                Já que minha presença não te agrada,<br/>
+
+                Que te custava ter-me neste engano,<br/>
+
+                Ou fosse monte, nuvem, sonho ou nada?<br/>
+
+                Daqui me parto, irado e quase insano<br/>
+
+                Da mágoa e da desonra ali passada,<br/>
+
+                A buscar outro mundo, onde não visse<br/>
+
+                Quem de meu pranto e de meu mal se risse.<br/>
+
+                (...)<br/>
+
+                Alguns a vários montes sotopostos.<br/>
+
+                E, como contra o Céu não valem mãos,<br/>
+
+                Eu, que chorando andava meus desgostos,<br/>
+
+                Comecei a sentir do fado imigo,<br/>
+
+                Por meus atrevimentos, o castigo:<br/>
+
+            </p>
+        </div>
+    </div>
+
+    <!-- sec=21 #60 -->
+    <div class="section" id="wall-60">
+        <!-- <img src="img/60Fundo-2.png" alt="background-60" id="background-60-2" class="background-60"> -->
+        <img src="img/60-FundoCeu.png" alt="background57" class="background57">
+        <img src="img/38-fundo.png" alt="57_background2" id="backgroundGone">
+        <img src="img/60-Adam.png" alt="stone-57" class="stone-57">
+        <img src="img/60Mar.png" alt="sea-57" class="sea-57">
+        <img src="img/39_nuvem.png" alt="cloud-57" id="cloud-57">
+        <img src="img/39_nuvem.png" alt="cloud-57" id="cloud-57-3">
+
+        <div class="textEstrofe" id="chat-18">
+            <p class="chat">
+
+                Converte-se-me a carne em terra dura;<br/>
+
+                Em penedos os ossos se fizeram;<br/>
+
+                Estes membros que vês e esta figura<br/>
+
+                Por estas longas águas se estenderam;<br/>
+
+                Enfim, minha grandíssima estatura<br/>
+
+                Neste remoto Cabo converteram<br/>
+
+                Os Deuses; e, por mais dobradas mágoas,<br/>
+
+                Me anda Tétis cercando destas águas.<br/>
+
+
+                (...)<br/>
+
+                Desfez-se a nuvem negra e cum sonoro<br/>
+
+                Bramido muito longe o mar soou.<br/>
+
+                Eu, levantando as mãos ao santo coro<br/>
+
+                Dos Anjos, que tão longe nos guiou,<br/>
+
+                A Deus pedi que removesse os duros<br/>
+
+                Casos que Adamastor contou futuros.<br/>
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="section" id="final-section">
+
+        <h3 class="text" id="last">Chegaste ao fim!<br>
+            Esperamos que tenhas aprendido!
+        </h3>
+        <p class="text">Universidade de Coimbra<br>
+            Licenciatura em Design e Multimédia <br>
+            2015/2016
+        </p>
+    </div>
+</div>
+
+<div id="nav-bar">
+    <ul id="nav-bar-list">
+        <li class="icon-click"><a href="information.html" target="blank"><i class="fa fa-info-circle"
+                                                                           aria-hidden="true"></i></a>
+        </li>
+    </ul>
+</div>
+
+
+<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/appPages.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1793 @@
+html,
+body {
+    margin: 0;
+    width: 100vw;
+    background-color: #1F1F29;
+    font-family: Helvetica;
+}
+
+.section {
+}
+
+img {
+    width: 100%;
+    max-width: 100vw;
+}
+
+/*-------------------------\
+|    HEADER             |
+\------------------------ */
+#nav-bar {
+    height: 5vh;
+    position: absolute;
+    top: 0;
+    z-index: 200;
+    max-height: 100vh;
+}
+
+#nav-bar-list li {
+  list-style: none;
+    
+}
+
+#nav-bar-list li a i {
+    color: white;
+}
+
+/*--------------------------------\
+| estilo dos textos das estrofes  |
+\------------------------------- */
+
+.textEstrofe {
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+    top: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+    position: absolute;
+    border-radius: 4px;
+}
+
+.chat {
+    line-height: 1.3;
+    color: white;
+    font-size: 1.3em;
+}
+
+#chat-1 {
+    background-color: rgba(145, 145, 183, 0.48);
+    margin-left: 56%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-2 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 56%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-3 {
+    background-color: rgba(51, 53, 111, 0.55);
+    margin-left: 56%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-4 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-5 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-6 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-7 {
+    background-color: rgb(63, 91, 115);
+    margin-left: 63%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+
+#chat-8 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 1% 3%;
+}
+
+#chat-9 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 1% 3%;
+    z-index: 200;
+}
+
+#chat-10 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 47%;
+    padding: 1% 3%;
+}
+
+#chat-11 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 56%;
+    margin-top: 37%;
+    padding: 1% 3%;
+}
+
+#chat-12 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 56%;
+    margin-top: 4%;
+    padding: 1% 3%;
+}
+
+#chat-13 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 56%;
+    margin-top: 37%;
+    padding: 1% 3%;
+}
+
+#chat-14 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 4%;
+    padding: 1% 3%;
+}
+
+#chat-15 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 6%;
+    padding: 1% 3%;
+}
+
+#chat-16 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 4%;
+    padding: 1% 3%;
+}
+
+#chat-17 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 4%;
+    padding: 1% 3%;
+}
+
+#chat-18 {
+    background-color: rgba(37, 55, 110, 0.68);
+    margin-left: 3%;
+    margin-top: 10%;
+    padding: 1% 3%;
+    z-index: 200;
+}
+
+
+/*-------------------------\
+|    INFORMATION PAGE      |
+\------------------------ */
+.info-container {
+    margin-top: 4%;
+}
+
+.info-title a {
+    color: white;
+    font-size: 3em;
+    margin-left: 7%;
+    text-decoration: none;
+}
+
+.info-title a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: left;
+    width: 37%;
+}
+
+.text p {
+    color: white;
+    line-height: 1.3;
+    font-size: 1.3em;
+}
+
+#footer-list {
+    top: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#footer-list li {
+    color: white;
+    list-style: none;
+}
+
+#footer-list-li {
+padding: 0;
+}
+
+#footer-list li a {
+    color: white;
+    list-style: none;
+    text-decoration: line-through;
+}
+
+#footer-list li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*-------------------------\
+|    PAG INTRO             |
+\------------------------ */
+
+#wall-1 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+
+#button {
+    /* posição */
+    margin-left: -42%;
+    margin-right: auto;
+    margin-top: 37%;
+    /*estilo*/
+    text-align: center;
+    background-color: rgb(110, 110, 110);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.5% 1%;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#img-fisrt-page {
+    width: 80%;
+    max-width: 100vw;
+}
+
+#wave-fisrt-page-1 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    margin-left: -94%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#wave-fisrt-page-2 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    margin-left: -94%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#wave-fisrt-page-3 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    margin-left: -94%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#wave-fisrt-page-4 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    margin-left: -94%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#wave-fisrt-page-5 {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    max-height: 100vh;
+    margin-left: -94%;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/*-------------------------\
+|    SLIDE 1               |
+\------------------------ */
+
+#wall-37 {
+    background: url(../img/37-fundo.jpg) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#sun {
+    position: absolute;
+    bottom: 0;
+    z-index: 100;
+    max-height: 100vh;
+    width: 15%;
+    left: 75%;
+    margin-bottom: 16%;
+    transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    transition-duration: 0ms;
+    transform: translate(0px, -93px) translateZ(0px);
+    /* top: 50%;
+    left: 75%; */
+}
+
+#ship-37 {
+    animation-name: sea;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    width: 80%;
+}
+
+.wave1 {
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+.wave2 {
+    animation-name: sea;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+.wave3 {
+    animation-name: sea;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+.wave4 {
+    animation-name: sea;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 2               |
+\------------------------ */
+
+#wall-38 {
+    background: url(../img/38-fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+#ship-scary-38 {
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 110vh;
+}
+
+.lightning {
+    -webkit-filter: brightness(200%);
+    filter: brightness(200%);
+    -o-filter: brightness(200%);
+    -moz-filter: brightness(200%);
+}
+
+.flash {
+    -webkit-animation: flash ease-out 4s infinite;
+    -moz-animation: flash ease-out 4s infinite;
+    animation: flash ease-out 4s infinite;
+    animation-delay: 2s;
+}
+
+/*-------------------------\
+|    SLIDE 3               |
+\------------------------ */
+
+#wall-38-v2 {
+    background: url(../img/38-2-fundoEscuro.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#background-38-v2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#waves-38-v2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+#clouds-38-v2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#ship-38-v2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+    animation-name: sea;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+#speech-38-2 {
+    margin-left: 35%;
+    margin-bottom: 33%;
+    width: 22%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 4 - #38-3       |
+\------------------------ */
+
+#wall-38-v3 {
+    background: url(../img/37-fundoescuro.jpg) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#cloud-flash-38-3 {
+    height: 100%;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#background-38 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+#ship-38-3 {
+    padding-bottom: 7%;
+    width: 50%;
+    margin-left: 7%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+#cloud {
+    pointer-events: all;
+}
+
+#cloudDrag1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 40%;
+    border: 1px solid transparent;
+}
+
+#cloudDrag1:hover {
+    cursor: move;
+}
+
+#targetCloud {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 300px;
+    border: 1px solid transparent;
+    margin-bottom: 18%;
+    margin-left: 2%;
+}
+
+#arrow-39 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+
+    width: 4%;
+    margin-top: 15%;
+    margin-left: 8%;
+
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+}
+
+#arrow-2-39 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+
+    width: 4%;
+    margin-top: 15%;
+    margin-left: 25%;
+
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+}
+
+/*-------------------------\
+|    SLIDE 5 - #39         |
+\------------------------ */
+
+#wall-39 {
+    background: url(../img/39-2Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#Adam39 {
+    z-index: 100;
+    max-height: 100vh;
+    opacity: 0;
+    animation-name: adam50;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+.clouds39-left {
+    position: absolute;
+    top: 0;
+    float: left;
+    -webkit-animation: flash ease-out 2s infinite;
+    -moz-animation: flash ease-out 2s infinite;
+    animation: flash ease-out 2s infinite;
+    animation-delay: 2s;
+    opacity: 0.28;
+
+    z-index: 100;
+    max-height: 100vh;
+}
+
+#moving-left1 {
+    transform: translate(-30px, -70px);
+    -webkit-transform: translate(-30px, -70px);
+    -o-transform: translate(-30px, -70px);
+    -moz-transform: translate(-30px, -70px);
+}
+
+#moving-right2 {
+    transform: translate(350px, 0);
+    -webkit-transform: translate(350px, 0);
+    -o-transform: translate(350px, 0);
+    -moz-transform: translate(350px, 0);
+}
+
+#moving-right3 {
+    -webkit-transform: translate(10px, 300px);
+    -o-transform: translate(300px, 300px);
+    -moz-transform: translate(300px, 300px);
+}
+
+#moving-right4 {
+    transform: translate(350px, 300px);
+    -webkit-transform: translate(350px, 300px);
+    -o-transform: translate(350px, 300px);
+    -moz-transform: translate(350px, 300px);
+}
+
+.clouds39-right {
+    position: absolute;
+    top: 0;
+    float: right;
+    -webkit-animation: flash ease-out 6s infinite;
+    -moz-animation: flash ease-out 6s infinite;
+    animation: flash ease-out 6s infinite;
+    animation-delay: 2s;
+    opacity: 0.17;
+
+    z-index: 100;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 6 - #40-41      |
+\------------------------ */
+
+#wall-40 {
+    background: url(../img/40_41Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#adamastor-background-40 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-height: 100vh;
+}
+
+#points {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+}
+
+#speech-ballon-40 {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+    height: auto;
+    margin-left: 60%;
+    margin-bottom: 30%;
+}
+
+.speech-ballon-40-animation {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+}
+
+.speech-ballon-40-visible {
+    opacity: 1;
+}
+
+.exclamation-points-not-visible {
+    opacity: 0;
+}
+
+.position-exclamation1 {
+    opacity: 1;
+    width: 12%;
+    margin-left: 23%;
+    margin-bottom: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+.position-exclamation2 {
+    opacity: 1;
+    width: 13%;
+    margin-left: 70%;
+    margin-bottom: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    max-height: 100vh;
+}
+
+.exclamation-points {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+}
+
+.exclamation-points:hover {
+    cursor: pointer;
+}
+
+.exclamation-points-animation {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+/*-------------------------\
+|    SLIDE 7 - #41         |
+\------------------------ */
+
+#wall-41 {
+    background: url(../img/39-2Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#background-41 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+.flash-41 {
+    -webkit-animation: flash ease-out 2s infinite;
+    -moz-animation: flash ease-out 2s infinite;
+    animation: flash ease-out 2s infinite;
+    animation-delay: 1s;
+}
+
+#adam-41 {
+    z-index: 101;
+    max-height: 100vh;
+
+    animation-name: adam50;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+/*-------------------------\
+|    SLIDE 8 - #42-48      |
+\------------------------ */
+
+#wall-42-48 {
+    background: url(../img/42_48NaufrágioCéu.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#background-sky-42-48 {
+    height: 100%;
+
+    z-index: 101;
+    max-height: 100vh;
+}
+
+/*#sky-42-48-flash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    
+    -webkit-animation: flash ease-out 1s infinite;
+    -moz-animation: flash ease-out 1s infinite;
+    animation: flash ease-out 1s infinite;
+    animation-delay: 1s;
+}*/
+
+.sea_42 {
+    animation-name: sea;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.ship_42 {
+    animation-name: sea;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 9 - #46-48      |
+\------------------------ */
+
+#wall-46-48 {
+    background: url(../img/42_48Fundosimples.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#background-43 {
+    position: absolute;
+    top: 0;
+    pointer-events: none;
+    max-height: 100vh;
+}
+
+#puzzleContainer {
+    top: 0;
+    height: 250px;
+}
+
+.drag {
+    /*width: 100px;
+    height: 100px;*/
+
+    float: left;
+    border: 1px solid transparent;
+}
+
+.target {
+    width: 130px;
+    height: 130px;
+    border: 1px solid transparent;
+    float: left;
+}
+
+#puzzleTarget {
+
+    width: 130px;
+    height: 130px;
+    border: 1px solid transparent;
+    margin-left: 62%;
+}
+
+#puzzlePieces {
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid transparent;
+    margin-left: 40%;
+}
+
+#puzzlePieces:hover {
+    cursor: move;
+}
+
+.clear {
+    display: none;
+}
+
+#arrow-42-48 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    width: 24%;
+    margin-left: 43%;
+    margin-bottom: 6%;
+
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+}
+
+/*-------------------------\
+|    SLIDE 10 - #46-48-2    |
+\------------------------ */
+
+#wall-46-48-2 {
+    background: url(../img/46-48-2Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.sea-46-48-2 {
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+}
+
+.ship-46-48-2 {
+    width: 80%;
+    margin-left: 11%;
+    animation-name: sea;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.wave-46-48-2 {
+    animation-name: sea;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+}
+
+/*-------------------------\
+|    SLIDE 11 - #46-48-3    |
+\------------------------ */
+
+#wall-46-48-3 {
+    background: url(../img/38-2-fundoEscuro.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.ship-46-48-3 {
+    animation-name: sea;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.person-46-48-3 {
+    animation-name: sea;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#person-46-48-light {
+    animation-name: sea;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: all;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 12 - #49    |
+\------------------------ */
+
+#wall-46-48-4 {
+    background: url(../img/49Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#leftB {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#rightB {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#Adam-46-48-4 {
+    position: absolute;
+    bottom: 0;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 13 - #49-2    |
+\------------------------ */
+
+#wall-49-2 {
+    background: url(../img/39-2Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#Adam-49-2 {
+    position: absolute;
+    bottom: 0;
+    max-height: 100vh;
+
+    -webkit-animation: flash ease-out 3s infinite;
+    -moz-animation: flash ease-out 3s infinite;
+    animation: flash ease-out 3s infinite;
+    animation-delay: 3s;
+}
+
+#ship-49-2 {
+    position: absolute;
+    bottom: 0;
+
+    animation-name: sea;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+
+#Adam-no-flash-49-2 {
+    position: absolute;
+    bottom: 0;
+    max-height: 100vh;
+}
+
+#speechBubbles3 {
+    margin-left: 16%;
+    margin-top: 19%;
+    width: 22%;
+    position: absolute;
+    top: 0;
+
+}
+
+/*-------------------------\
+|    SLIDE 14 - #50-51    |
+\------------------------ */
+
+#wall-50-51 {
+    background: url(../img/50-51Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#wall-50-51:hover {
+    cursor: none;
+}
+
+.color-50-51 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+#cloudYellow {
+    float: left;
+    width: 40%;
+    margin-left: 20%;
+    margin-top: -3%;
+    height: auto;
+    /*  animation-name: cloudofsmoke;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    */
+}
+
+#cloudRed {
+    float: right;
+    margin-left: 65%;
+    margin-top: 8%;
+    width: 45%;
+
+    height: auto;
+    /*  animation-name: cloudofsmoke;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    */
+}
+
+#cloudGreen {
+    margin-top: 15%;
+    width: 35%;
+    height: auto;
+    /*   animation-name: cloudofsmoke;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    */
+}
+
+.sword-50-51 {
+    width: 40%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+.sword-50-51:hover {
+    cursor: none;
+}
+
+/*-------------------------\
+|    SLIDE 15 - #52    |
+\------------------------ */
+
+#wall-52 {
+    background: url(../img/52-FundoSemBack.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#smoke52 {
+    animation-name: smoke;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.tetis-clothes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+}
+
+/*-------------------------\
+|    SLIDE 16 - #53    |
+\------------------------ */
+
+#wall-53 {
+    background: url(../img/56FundoComBackground.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#smoke53 {
+    animation-name: smoke;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+.adam-53 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+/*-------------------------\
+|    SLIDE 17 - #54    |
+\------------------------ */
+
+#wall-54 {
+    background: url(../img/54FundoSemBackground.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.heart-54 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+#heart {
+    pointer-events: all;
+    cursor: pointer;
+}
+
+#heart-random1 {
+    width: 40%;
+    margin-left: 27%;
+    margin-top: 9%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#heart-random2 {
+    width: 38%;
+    margin-left: 34%;
+    margin-top: 11%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#heart-random3 {
+    width: 37%;
+    margin-left: 30%;
+    margin-top: 12%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#heart-random4 {
+    width: 37%;
+    margin-left: 32%;
+    margin-top: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+#heart-random5 {
+    width: 35%;
+    margin-left: 32%;
+    margin-top: 15%;
+    pointer-events: none;
+}
+
+.notVisible {
+    opacity: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+.visible {
+    opacity: 1;
+}
+
+/*-------------------------\
+|    SLIDE 18 - #55    |
+\------------------------ */
+
+#wall-55 {
+    background-color: black;
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.tetis-without-clothes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#clouds-55 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+    pointer-events: none;
+}
+
+/*-------------------------\
+|    SLIDE 19 - #56    |
+\------------------------ */
+
+#wall-56 {
+    background-color: black;
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+#background56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+}
+
+#florest-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+}
+
+#adam-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#foot1-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#foot2-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#foot3-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#foot4-56 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 20 - #57-59    |
+\------------------------ */
+
+#wall-57 {
+    background: url(../img/57-59Fundo.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+#broken-heart {
+    width: 60%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+/*-------------------------\
+|    SLIDE 21 - #60    |
+\------------------------ */
+
+#wall-60 {
+    background: url(../img/60-FundoCeu.png) center no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.background57 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#backgroundGone {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.stone-57 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+.sea-57 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+}
+
+#cloud-57 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+    opacity: 1;
+    width: 60%;
+    margin-left: -5%;
+}
+
+#cloud-57-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    max-height: 100vh;
+    opacity: 1;
+    width: 80%;
+    margin-left: 30%;
+}
+
+/*-------------------------\
+|    FINAL SECTION         |
+\------------------------ */
+#final-section {
+    color: white;
+}
+
+#last {
+font-size: 4em;
+}
+
+/*-------------------------\
+|    ANIMAÇÕES             |
+\------------------------ */
+
+@-webkit-keyframes flash {
+    from {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 0.6;
+    }
+    90% {
+        opacity: 0.2;
+    }
+    95% {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    from {
+        opacity: 0.1;
+    }
+    83% {
+        opacity: 0.1;
+    }
+    87% {
+        opacity: 0.6;
+    }
+    91% {
+        opacity: 0.2;
+    }
+    95% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+
+@keyframes cloudofsmoke {
+    0% {
+        opacity: 0.4;
+    }
+    25% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes sea {
+    0% {
+        margin-bottom: 0%;
+    }
+    25% {
+        margin-bottom: -1%;
+    }
+    50% {
+        margin-bottom: 0%;
+    }
+    75% {
+        margin-bottom: -2%;
+    }
+    100% {
+        margin-bottom: 0%;
+    }
+}
+
+@keyframes adam50 {
+    0% {
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+    25% {
+        padding-left: 1%;
+        padding-top: 1%;
+    }
+    50% {
+        padding-left: 0%;
+    }
+    75% {
+        padding-left: 1%;
+    }
+    100% {
+        padding-left: 0%;
+    }
+}
+
+@-webkit-keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -2deg);
+        transform: rotate3d(0, 0, 1, -2deg);
+    }
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -1deg);
+        transform: rotate3d(0, 0, 1, -1deg);
+    }
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+    40% {
+        -webkit-transform: rotate3d(0, 0, 1, -2deg);
+        transform: rotate3d(0, 0, 1, -2deg);
+    }
+    60% {
+        -webkit-transform: rotate3d(0, 0, 1, 5deg);
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+    80% {
+        -webkit-transform: rotate3d(0, 0, 1, -1deg);
+        transform: rotate3d(0, 0, 1, -1deg);
+    }
+    to {
+        -webkit-transform: rotate3d(0, 0, 1, 0deg);
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes smoke {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 1.0;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -ms-transform: rotate(50deg);
+        /* IE 9 */
+        -webkit-transform: rotate(50deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(90deg);
+    }
+    100% {
+        -ms-transform: rotate(-50deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-50deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(-50deg);
+    }
+}
+
+@keyframes chat-animation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
