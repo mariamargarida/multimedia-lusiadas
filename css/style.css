@@ -39,11 +39,6 @@ img {
 \------------------------------- */
 
 .textEstrofe {
-    animation-name: blink;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-
     top: 0;
     left: 0;
     z-index: 100;
